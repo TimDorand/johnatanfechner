@@ -8,9 +8,9 @@ ul, li, a, p {
 
 .head {
   text-align: center;
-  min-height: 100%;
   width: 100%;
-  color: white; }
+  color: white;
+  overflow: hidden; }
   .head h1 {
     margin-top: 15%; }
 
@@ -30,13 +30,35 @@ ul, li, a, p {
   background: url("../5.png") center center;
   background-size: contain; }
 
-.navbartop {
-  margin-top: 2%; }
-
 .masteries {
-  font-size: 4em; }
+  font-size: 3em;
+  margin-top: 4%; }
+  .masteries .mas {
+    display: inline-block; }
+    .masteries .mas p {
+      text-align: center;
+      font-size: 10px; }
   .masteries .master {
     display: inline-block;
-    background: black; }
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50px;
+    padding: 20px; }
+
+.sommaire {
+  width: 80%;
+  margin: auto;
+  color: black; }
+  .sommaire p {
+    color: black; }
+  .sommaire a {
+    color: darkblue; }
+
+.somm {
+  padding: 20px;
+  background: #012342;
+  color: white; }
+  .somm p {
+    color: white; }
 
 /*# sourceMappingURL=style.css.map */

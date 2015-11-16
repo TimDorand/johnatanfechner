@@ -13,9 +13,9 @@ ul, li, a, p{
 
 .head{
   text-align: center;
-  min-height:100%;
   width:100%;
   color:white;
+  overflow: hidden;
   h1{
     margin-top: 15%;
   }
@@ -42,14 +42,48 @@ ul, li, a, p{
   }
 
 .navbartop{
-  margin-top: 2%;
+  //margin-top: ;
 
 }
 
 .masteries{
-  font-size: 4em;
+  font-size: 3em;
+  margin-top: 4%;
+  .mas{
+    display:inline-block;
+    p {
+      text-align: center;
+      font-size: 10px;
+    }
+
+  }
 .master{
   display:inline-block;
-  background:black;
+  max-width:100px;
+  max-height:100px;
+  border-radius: 50px;
+  padding:20px;
 }
+}
+
+.sommaire{
+  width:80%;
+  margin:auto;
+  color:black;
+  p{
+    color:black;
+  }
+  a{
+    color:darkblue;
+  }
+}
+
+.somm{
+  padding:20px;
+  background: #012342;
+  color:white;
+  p{
+    color: white;
+  }
+
 }
