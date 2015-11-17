@@ -9,7 +9,7 @@
 
 
         <meta charset="UTF-8">
-		<link rel="shortcut icon" href="img/johnatan.jpg" />
+		<link rel="shortcut icon" href="JF.png" />
 		<meta name="google-translate-customization" content="d76f22e062b37d54-7af2c4d2e0eac258-g0c0e02719d73d351-16"></meta>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
         <!--BING REFERENCEMENT-->
@@ -61,7 +61,10 @@
 					<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +33 6 13 24 48 61
 					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contact@jonathanfechner.fr </p>
 			</div>
-			<nav class="col-md-6 col-md-offset-6 navbartop">
+			<div class="col-md-1 col-md-offset-1 logo">
+				<img src="JF1.png" title="logo fechner" height="50" alt="logo fechner">
+			</div>
+			<nav class="col-md-6 col-md-offset-4 navbartop">
 				<ul class="nav-justified" style="margin-top: 40px;">
 					<li>Accueil</li>
                     <li>Réalisations</li>

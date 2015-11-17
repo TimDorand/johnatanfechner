@@ -14,11 +14,11 @@ require('headerhome.php');
 
     <h1><strong>Jonathan Fechner</strong><span class="soustitre">Production & Developpement multimédia</span></h1>
         <div class="col-md-12 masteries">
-    <div class="mas"><div class="col-md-12 master"><span class="glyphicon glyphicon-headphones"></span></div><p>Ecoute</p></div>
-    <div class="mas"><div class="col-md-12 master"><span class="glyphicon glyphicon-user"></span></div><p>Conseil</p></div>
-    <div class="mas"><div class="col-md-12 master"><span class="glyphicon glyphicon-phone"></span></div><p>Innovation</p></div>
-    <div class="mas"><div class="col-md-12 master"><span class="glyphicon glyphicon-bullhorn"></span></div><p>Gestion de Projets</p></div>
-    <div class="mas"><div class="col-md-12 master"><span class="glyphicon glyphicon-hand-right"></span></div><p>Flatteries</p></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="a.png" alt="skills"></div><p>Ecoute</p></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="e.png" alt="skills"></div><p>Conseil</p></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="r.png" alt="skills"></div><p>Innovation</p></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="t.png" alt="skills"></div><p>Gestion de Projets</p></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="z.png" alt="skills"></div><p>Flatteries</p></div>
 
     </div>
     </div>
