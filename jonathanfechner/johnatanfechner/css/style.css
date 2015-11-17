@@ -1,0 +1,64 @@
+@font-face {}
+html, body {
+  height: 100%;
+  font-family: "Raleway","Open Sans", Arial; }
+
+ul, li, a, p {
+  color: white; }
+
+.head {
+  text-align: center;
+  width: 100%;
+  color: white;
+  overflow: hidden; }
+  .head h1 {
+    margin-top: 15%; }
+
+.soustitre {
+  display: block; }
+
+.contactbar {
+  font-size: 0.8em;
+  padding-top: 6px;
+  border-bottom: 1px solid #e9e9e9;
+  border-color: rgba(255, 255, 255, 0.2); }
+  .contactbar .glyphicon {
+    padding-left: 20px; }
+
+.headbackground {
+  height: 100%;
+  background: url("../5.png") center center;
+  background-size: contain; }
+
+.masteries {
+  font-size: 3em;
+  margin-top: 4%; }
+  .masteries .mas {
+    display: inline-block; }
+    .masteries .mas p {
+      text-align: center;
+      font-size: 10px; }
+  .masteries .master {
+    display: inline-block;
+    max-width: 100px;
+    max-height: 100px;
+    border-radius: 50px;
+    padding: 20px; }
+
+.sommaire {
+  width: 80%;
+  margin: auto;
+  color: black; }
+  .sommaire p {
+    color: black; }
+  .sommaire a {
+    color: darkblue; }
+
+.somm {
+  padding: 20px;
+  background: #012342;
+  color: white; }
+  .somm p {
+    color: white; }
+
+/*# sourceMappingURL=style.css.map */
