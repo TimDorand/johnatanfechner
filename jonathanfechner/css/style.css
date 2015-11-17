@@ -1,0 +1,32 @@
+body {
+  font-family: "Raleway", arial; }
+
+.profil img {
+  padding-top: 15%;
+  padding-left: 14%; }
+
+h1 {
+  text-align: center; }
+
+.row {
+  padding-top: 20%;
+  padding-left: 5%; }
+
+.row2 {
+  padding-top: 5%;
+  padding-left: 5%; }
+
+h4 {
+  padding-top: 20%;
+  line-height: 130%;
+  text-align: justify; }
+
+.row3 {
+  padding-top: 5%;
+  padding-left: 5%; }
+
+.gestion {
+  padding-left: 5%;
+  padding-top: 5%; }
+
+/*# sourceMappingURL=style.css.map */
