@@ -9,7 +9,7 @@
 
 
         <meta charset="UTF-8">
-		<link rel="shortcut icon" href="JF.png" />
+		<link rel="shortcut icon" href="img/JF.png" />
 		<meta name="google-translate-customization" content="d76f22e062b37d54-7af2c4d2e0eac258-g0c0e02719d73d351-16"></meta>
 			<meta name="viewport" content="width=device-width, initial-scale=1">
         <!--BING REFERENCEMENT-->
@@ -61,14 +61,13 @@
                     <span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contact@jonathanfechner.fr </p>
             </div>
             <div class="col-md-2">
-                <img src="JF1.png" title="logo fechner" alt="logo fechner">
+                <img src="img/JF1.png" title="logo fechner" alt="logo fechner">
             </div>
 			<nav class="col-md-6 col-md-offset-4 navbartop">
 				<ul class="nav-justified" style="margin-top: 40px;">
-					<li>Accueil</li>
-                    <li>Réalisations</li>
-                    <li>Cours</li>
-                    <li>A propos</li>
+					<a href="index.php>"><li>Accueil</li></a>
+                    <a href="apropos.php"><li>A propos</li></a>
+                    <a href="cours.php"><li>Cours</li></a>
 				</ul>
 			</nav>
 		</header>
