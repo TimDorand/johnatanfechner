@@ -1,9 +1,97 @@
-body {
-  font-family: "Raleway", arial; }
+/* BAR TOP FIXED CONTACT */
+/*.contactbar{
+  font-size: 0.9em;
+  padding-top: 5px;
+  border-bottom: 1px solid #e9e9e9;
+  border-color: rgba(255,255,255,0.2);
+  .glyphicon{
+    padding-left: 20px;
+  }
+}
+
+.containerhead{
+  width:1200px;
+  height:100%;
+  margin:auto;
+}*/
+/* DIV HEADER PRINCAPLE (IMAGE) */
+.headersingle {
+  /* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5e3ff+0,cbebff+53,e0f2ff+100 */
+  background: #b5e3ff;
+  /* Old browsers */
+  background: -moz-linear-gradient(top, #b5e3ff 0%, #cbebff 53%, #e0f2ff 100%);
+  /* FF3.6-15 */
+  background: -webkit-linear-gradient(top, #b5e3ff 0%, #cbebff 53%, #e0f2ff 100%);
+  /* Chrome10-25,Safari5.1-6 */
+  background: linear-gradient(to bottom, #b5e3ff 0%, #cbebff 53%, #e0f2ff 100%);
+  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5e3ff', endColorstr='#e0f2ff',GradientType=0 );
+  /* IE6-9 */
+  height: auto; }
+
+/*MENU */
+.navbartop {
+  height: auto;
+  font-size: 1em;
+  text-align: right;
+  float: right; }
+  .navbartop li {
+    text-align: right;
+    float: left;
+    list-style-type: none; }
+
+.coursnav {
+  color: grey; }
+  .coursnav a {
+    color: white; }
+
+/*FIN HEAD*/
+/*SINGLE PAGE*/
+hr {
+  width: 125px;
+  border: 1px solid black; }
 
 .profil img {
   padding-top: 15%;
   padding-left: 14%; }
+
+.fai {
+  padding-top: 12%; }
+
+#parallax1 {
+  background: url(../img/5.png) center center fixed;
+  margin-top: 2%;
+  height: 400px; }
+
+#parallax4 {
+  background: url(../img/5.png) center center fixed;
+  margin-top: 0%;
+  height: 600px; }
+
+#parallax2 {
+  margin-bottom: 10%; }
+
+#parallax3 {
+  margin-top: 12%; }
+
+#parallaxbot {
+  background-image: url(../img/5.png);
+  height: 200px; }
+
+#competences {
+  margin-bottom: 20%; }
+
+#infoscompetences {
+  margin-top: 5%; }
+
+.reference {
+  padding-top: 10%; }
+
+.donnees {
+  padding-top: 0; }
+
+.chiffre {
+  padding-top: 0%; }
 
 h1 {
   text-align: center; }
@@ -25,8 +113,26 @@ h4 {
   padding-top: 5%;
   padding-left: 5%; }
 
+h5 {
+  font-size: 150%; }
+
+strong {
+  font-size: 250%; }
+
 .gestion {
   padding-left: 5%;
   padding-top: 5%; }
+
+.competences {
+  margin-top: 5%; }
+
+#bouton .bouton {
+  margin-top: -8%; }
+
+#progressbar {
+  width: 600px;
+  margin-left: 35%;
+  margin-bottom: 5%;
+  margin-top: -2%; }
 
 /*# sourceMappingURL=single.css.map */

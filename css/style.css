@@ -59,29 +59,23 @@ ul, li, a, p {
   font-size: 25px; }
 
 .masteries {
-  margin-top: 2%;
-  height: auto; }
-  .masteries .mas {
-    margin: 0 3% 0 3%;
-    width: 100px;
-    height: auto;
-    font-family: "Open Sans";
-    font-weight: 700;
-    display: inline-block; }
-    .masteries .mas h2 {
-      font-size: 1em; }
-    .masteries .mas p {
-      font-weight: 300;
-      font-size: 0.8em; }
-  .masteries .master {
-    display: inline-block; }
+  margin-top: 4%;
+  height: auto;
+  width: 100%; }
 
-/*.ma{
-  width:100px;
-  img {
-    width: 100px;
-  }
-}*/
+.masterie {
+  font-family: "Open Sans";
+  font-weight: 700; }
+  .masterie h2 {
+    font-size: 1em; }
+  .masterie p {
+    font-weight: 300;
+    font-size: 0.8em; }
+
+.master {
+  width: 50%;
+  margin: auto; }
+
 /*FIN HEAD*/
 .sommaire {
   width: 80%;
@@ -103,6 +97,13 @@ ul, li, a, p {
   .middle a, .middle p, .middle h2 {
     color: white; }
 
+.hoversomm a {
+  text-decoration: none;
+  color: black; }
+
+.hoversomm:hover {
+  background: rgba(0, 0, 0, 0.1); }
+
 /*TRES GRAND ECRANS*/
 @media screen and (min-width: 1400px) {
   .containerhead {
@@ -118,7 +119,7 @@ ul, li, a, p {
   .navbartop {
     font-size: 1em; } }
 /*PETITS ECRANS*/
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1200px) {
   .containerhead {
     width: 100%; } }
 

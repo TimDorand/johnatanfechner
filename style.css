@@ -1,0 +1,94 @@
+body {
+  font-family: "Raleway", arial; }
+
+hr {
+  width: 125px;
+  border: 1px solid black; }
+
+.profil img {
+  padding-top: 15%;
+  padding-left: 14%; }
+
+.fai {
+  padding-top: 12%; }
+
+#parallax1 {
+  background-image: url(../img/5.png);
+  margin-top: 2%;
+  height: 400px;
+  background-position: fixed; }
+
+#parallax4 {
+  background-image: url(../img/5.png);
+  margin-top: 0%;
+  height: 600px;
+  background-position: fixed; }
+
+#parallax2 {
+  margin-bottom: 10%; }
+
+#parallax3 {
+  margin-top: 12%; }
+
+#parallaxbot {
+  background-image: url(../img/5.png);
+  height: 200px; }
+
+#competences {
+  margin-bottom: 20%; }
+
+#infoscompetences {
+  margin-top: 5%; }
+
+.reference {
+  padding-top: 10%; }
+
+.donnees {
+  padding-top: 0; }
+
+.chiffre {
+  padding-top: 0%; }
+
+h1 {
+  text-align: center; }
+
+.row {
+  padding-top: 20%;
+  padding-left: 5%; }
+
+.row2 {
+  padding-top: 5%;
+  padding-left: 5%; }
+
+h4 {
+  padding-top: 20%;
+  line-height: 130%;
+  text-align: justify; }
+
+.row3 {
+  padding-top: 5%;
+  padding-left: 5%; }
+
+h5 {
+  font-size: 150%; }
+
+strong {
+  font-size: 250%; }
+
+.gestion {
+  padding-left: 5%;
+  padding-top: 5%; }
+
+.competences {
+  margin-top: 5%; }
+
+#bouton .bouton {
+  margin-top: -8%; }
+
+#progressbar {
+  width: 600px;
+  margin-left: 35%;
+  margin-bottom: 5%;
+  margin-top: -2%; }
+
+/*# sourceMappingURL=style.css.map */

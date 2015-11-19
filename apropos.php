@@ -1,82 +1,57 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <!-- Basic Page Needs
-    ================================================== -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Jonathan Fechner</title>
-    <link rel="icon" type="image/png" href="" />
-
-<!-- Dublin Core -->
-    <meta name="DC.title" content="Site Tag Heuer,montres de luxe pour homme et femme">
-    <meta name="DC.creator" content="Jérémie Dahan">
-    <meta name="DC.subject" content="Montres, Luxe, bijoux, tag heuer, tagheuer" />
-    <meta name="DC.description" content="Tag Heuer, Créateur de montre suisse de luxe depuis 1860. Modeles pour hommes et femmes, achat en boutique, vitrine en ligne, luxe, horlogerie" />
-    <meta name="DC.publisher" content="Jérémie Dahan">
-    <meta name="DC.format" content="website">
-    <meta name="DC.identifier" content="www.gorillazhd.com">
-    <meta name="DC.language" content="fr-FR">
-    <meta name="DC.coverage" content="World">
-    <meta name="DC.rights" content="&copy; Tag Heuer">
-    <!-- END Dublin Core -->
+<? require('header.php');
+?>
 
 
-    <!-- Referencement -->
-    <meta name="description" content="Tag Heuer, Créateur de montre suisse de luxe depuis 1860. Modeles pour hommes et femmes, achat en boutique, vitrine en ligne, luxe, horlogerie">
-    <meta name="keywords" content="Montres, Luxe, bijoux, tag heuer, tagheuer">
-    <meta name="author" content="Jérémie Dahan">
-    <meta name="robots" content="index">
-    <meta name="Indentifier-URL" content="www.gorillazhd.com">
-    <!-- END Référencement -->
-
-
-    <!-- Open Graph-->
-    <meta property="og:title" content="Tag Heuer : Montres de luxe pour Hommes et Femmes">
-    <meta property="og:type" content="website">
-    <meta property="og:url" content="www.gorillazhd.com">
-    <meta property="og:image" content="www.gorillazhd.com">
-    <meta property="og:site_name" content="Tag Heuer">
-    <meta property="og:description" content="Tag Heuer, Créateur de montre suisse de luxe depuis 1860. Modeles pour hommes et femmes, achat en boutique, vitrine en ligne, luxe, horlogerie">
-    <!-- END Open Graph-->
-
-
-
-
-
-
-    <!-- Bootstrap -->
-    <link rel="stylesheet" type="text/css"  href="css/bootstrap.css">
-
-
-
-    <!-- Stylesheet
-    ================================================== -->
-    <link rel="stylesheet" type="text/css"  href="css/single.css">
-    <link href='https://fonts.googleapis.com/css?family=Raleway' rel='stylesheet' type='text/css'>
-
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
-
-
-
-
-</head>
-
-
-
-<body>
-
-    <p class=" text-center"> <h1>A PROPOS</h1></p>
+    <p class=" text-center"> <h1>Parcours Profesionnel</h1></p>
+    <div class="hr"><hr></div>
+      <div class="text-center"> <h3>"Changez de point de vue, gagnez en efficacité"</h3> </div>
 <div class= "container-fluid  profil">
 <div class="col-xs-4 col-md-offset-1 photo"> <img src="img/profil.jpg" class="img-responsive profil" alt="Responsive image"> </div>
-<div class="col-xs-5">  <h4>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication. Il trouve des solutions multimédia pour les entreprises. Son intervention sur vos projets et avant-projets permet de vous apporter des réponses claires, du cahier des charges fonctionnel au succès de l'opération.
+<div class="col-xs-5">  <h4>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication. Il trouve des solutions multimédia pour les entreprises. Son intervention sur vos projets et avant-projets permet de vous apporter des réponses claires, du cahier des charges fonctionnel au succès de l'opération. <br></br>
 
-Vous êtes une entreprise ou un porteur de projet, grâce à son réseau de plus de 200 professionnels reconnus, Jonathan Fechner peut constituer une équipe dédiée pour garantir le succès de votre projet. Opération de communication, création de site web, 3D, print, ou vidéo, faire appel à Jonathan Fechner c’est gagner un temps précieux et la certitude d’atteindre vos objectifs.</h4> </div>
+<p> Vous êtes une entreprise ou un porteur de projet, grâce à son <b>réseau</b> de plus de <b>200 professionnels reconnus</b>, Jonathan Fechner peut constituer une équipe dédiée pour garantir le succès de votre projet. <b>Opération de communication, création de site web, 3D, print, ou vidéo</b>, faire appel à Jonathan Fechner c’est gagner un temps précieux et la certitude d’<b>atteindre vos objectifs</b>.</p></h4> </div>
 
 </div>
+
+<section id="parallax1">
+  <div class="container">
+
+
+    <div class="fai">
+ <span <i class="fa fa-coffee fa-5x text-center col-md-3"></i></span>
+  <span <i class="fa fa-thumbs-o-up fa-5x text-center col-md-3"></i></span>
+ <span <i class="fa fa-users fa-5x text-center col-md-3"></i></span>
+ <span <i class="fa fa-clock-o fa-5x text-center col-md-3"></i></span>
+    </div>
+
+
+
+    <div class="chiffre">
+ <div class="text-center col-md-3"><strong>1</strong></div>
+ <div class="text-center col-md-3"><strong>400</strong></div>
+ <div class="text-center col-md-3"><strong>1200</strong></div>
+ <div class="text-center col-md-3"><strong>27000</strong></div>
+    </div>
+
+
+
+     <div class="donnees">
+  <div class="text-center col-md-3">Thé tous les matins</div>
+  <div class="text-center col-md-3">Projets supervisés</div>
+  <div class="text-center col-md-3">Personnes formées</div>
+  <div class="text-center col-md-3">Heures d’expérience</div>
+    </div>
+</div>
+</section>
+
+
+<section id="parallax2">
+  <div class="hr">
+    <hr> </div>
 <div class="container-fluid col-xs-12 ">
   <div class="container-fluid row2">
     <div class="col-xs-3 col-md-offset-1 text-center">
+
 <h3>Gestion de Projet gagnez du temps et de l’argent</h3>
 
 <p class="text-justify"> Expert en Gestion de projet. Diagramme de Gantt, Scrum Master, méthode Agile recrutement de spécialistes, gestion des ressources. Profitez d’un réseau de plus de 200 professionnels reconnu. Vous avez un projet, il trouve les solutions.</p>
@@ -92,32 +67,94 @@ Vous êtes une entreprise ou un porteur de projet, grâce à son réseau de plus
 
 <p class="text-justify">Expert en Design. Vous avez besoin d’une maquette ou d’un modèle de pré série ? Prototypage rapide, impression 3D. Vous voulez un site internet ? Quelle technologie choisir pour votre projet ? Il vous apporte la solution.</p>
 </div>
+
   </div>
+  <div class="hr">
+    <br> </br>
+    <hr> </div>
+</section>
 
 
-  <div class="row3">
-    <div class="col-md-4 col-md-offset-1 text-justify"><h3>De la gestion de projet au succès de l’opération</h3> Après 15 ans d'expérience dans la gestion de projets, et 12 années à la tête d'entreprises, Jonathan Fechner ne cesse de chercher à améliorer les processus, de l'idée au projet abouti. Fort de ces expériences, il conseil aujourd’hui des entreprises de renommée international mais accompagne aussi de jeunes créateurs d’entreprises dans leurs projets.</p></p></div>
-    <div class="col-md-6 col-md-offset-1"> <h3>Ses compétences<h3> <div class="progress">
-  <div class="progress-bar progress-bar-success" role="progressbar" aria-valuenow="40" aria-valuemin="0" aria-valuemax="100" style="width: 40%">
-    <span class="sr-only">40% Complete (success)</span>
+
+
+<section id="parallax3">
+
+
+
+<p class="col-xs-4 text-center "> <h2>De la gestion de projet au succès de l’opération</h2></p>
+
+<div class="col-xs-4 col-xs-offset-4 text-center ">Après <b>15 ans</b> d’expérience dans la <b>gestion de projets</b>, et 12 années à la tête d’<b>entreprises</b>, Jonathan Fechner ne cesse de chercher à <b>améliorer les processus</b>, de l’idée au projet <b>abouti</b>. Fort de ces expériences, il conseil aujourd’hui des <b>entreprises</b> de renommée <b>international</b> mais accompagne aussi de <b>jeunes créateurs</b> d’entreprises dans leurs projets.</div>
+
+</section>
+
+
+
+
+<section id="competences">
+<div class=" competences col-xs-12 text-center "> <h1>Ses compétences</h1> <div class="hr">
+  <hr> </div></div>
+
+
+</section>
+
+<section id="progressbar">
+
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 97%">
+    Ecoute 97%
   </div>
 </div>
+
 <div class="progress">
-  <div class="progress-bar progress-bar-info" role="progressbar" aria-valuenow="20" aria-valuemin="0" aria-valuemax="100" style="width: 20%">
-    <span class="sr-only">20% Complete</span>
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 99%">
+    Gestion de projet 99%
   </div>
 </div>
+
 <div class="progress">
-  <div class="progress-bar progress-bar-warning" role="progressbar" aria-valuenow="60" aria-valuemin="0" aria-valuemax="100" style="width: 60%">
-    <span class="sr-only">60% Complete (warning)</span>
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 98%">
+   Innovation 98%
   </div>
 </div>
+
 <div class="progress">
-  <div class="progress-bar progress-bar-danger" role="progressbar" aria-valuenow="80" aria-valuemin="0" aria-valuemax="100" style="width: 80%">
-    <span class="sr-only">80% Complete (danger)</span>
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 99%">
+    Conseil 99%
   </div>
- </div>
+</div>
+
+<div class="progress">
+  <div class="progress-bar progress-bar-striped active" role="progressbar" aria-valuenow="45" aria-valuemin="0" aria-valuemax="100" style="width: 3%">
+   Flatterie 3%
   </div>
+</div>
+
+</section>
+
+<section id="parallax4">
+  <div class="reference"><h1> Références Clients </h1> </div>
+</section>
+<div class="hr">
+  <hr> </div>
+<section id="infoscompetences">
+<div class="row5">
+  <div class="col-xs-4 col-xs-offset-3"> <h5>Formateur multimédia de l’imagination à l’accomplissement</h5></div>
+  <div class="col-xs-2"><h5>Garanties de prestations</h5></div>
+</div>
+
+<div class="row6">
+  <div class="col-xs-4 col-xs-offset-3"><p>Jonathan Fechner <b>transmet</b> son expérience et <b>partage la passion</b> de son métier depuis 5 ans au seins de Grandes Ecoles et principalement à l’IIM(Pôle Universitaire Léonard de Vinci. Qu’il s’agisse d’initiation web (HTML et CSS), la gestion projet, la rédaction d’un cahier des charges ou lerecettage, sa <b>vision globale Digitale 360°</b> est très appréciée des élèves. Ponctuée d’anecdotes et de situations réelles ses cours sont vivant et donne envie d’<b>apprendre</b> et d’<b>entreprendre</b>.</p></div>
+  <div class="col-xs-2"><p>Les <b>prestations</b> de Jonathan Fechner sont <b>garanties</b>. Ce qui implique de suivre ses <b>recommandations</b>. Le respect du cahier des charges est la pierre angulaire de la <b>confiance</b> qui unie Jonathan Fechner à ses <b>clients</b>.</p></div>
+</div>
+
+</section>
+
+
+<section id="bouton">
+<div class=" bouton container-fluid row cour3">
+  <div class="col-xs-4 col-md-4 text-right"><a class="btn btn-default" href="#" role="button">Donnez votre avis</a></div>
+</div>
+</section>
 
 
 
