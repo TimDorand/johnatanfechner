@@ -62,13 +62,13 @@
 
 			<div class="col-md-12 navbar-top contactbar">
 				<p><span class="glyphicon glyphicon-home" aria-hidden="true"></span> 12 avenue Léonard de Vinci, Courbevoie
-					<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +33 6 13 24 48 61
-					<span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> contact@jonathanfechner.fr </p>
+<!--					<span class="glyphicon glyphicon-earphone" aria-hidden="true"></span> +33 6 13 24 48 61-->
+					<a href="apropos.php"><span class="glyphicon glyphicon-envelope" aria-hidden="true"></span> Contactez moi </p></a>
 			</div>
-			<div class="col-md-1 col-md-offset-1 logo">
-				<a href="index.php"><img src="img/JF1.png" title="logo fechner" height="50" alt="logo fechner"></a>
+			<div class="col-md-1 col-md-offset-1  col-sm-12 col-xs-12 logo">
+				<a href="index.php"><img src="img/JF1.png" title="logo fechner" height="50px" alt="logo fechner"></a>
 			</div>
-			<nav class="col-md-10 col-md-offset-0 navbartop">
+			<nav class="col-md-10 col-md-offset-0  col-sm-12 col-xs-12 navbartop">
 				<ul class="navbartop">
 					<li><a href="index.php>">Accueil</a> : : </li>
 					<li><a href="#cours">&nbsp;Cours</a> : : </li>

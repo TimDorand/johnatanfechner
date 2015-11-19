@@ -14,14 +14,15 @@ require('headerhome.php');
 
     <h1><strong>Jonathan Fechner</strong><span class="soustitre">Consultant SEO, Web et Multimédia</span></h1>
         <div class="col-md-12 masteries">
-    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="img/a.png" alt="skills"></div><p>Ecoute</p><h2>98%</h2></div>
-    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="img/r.png" alt="skills"></div><p>Conseil</p><h2>97%</h2></div>
-    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="img/z.png" alt="skills"></div><p>Innovation</p><h2>95%</h2></div>
-    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="img/a.png" alt="skills"></div><p>Gestion de Projets</p><h2>99%</h2></div>
-    <div class="mas"><div class="col-md-12 master"><img class="img-responsive" src="img/e.png" alt="skills"></div><p>Flatteries</p><h2>2%</h2></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive ma" src="img/t-.png" alt="skills"></div><h2>Ecoute</h2><p class="legend">Attentif a vos demandes professionnelles<br/></p><h4>98%</h4></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive ma" src="img/r.png" alt="skills"></div><h2>Conseil</h2><p class="legend">Toujours disponible pour développer votre projet</p><h4>97%</h4></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive ma" src="img/z.png" alt="skills"></div><h2>Innovation</h2><p class="legend">Recommendations à la pointe de la technologie<br/></p><h4>95%</h4></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive ma" src="img/a.png" alt="skills"></div><h2>Gestion de Projets</h2><p class="legend">Optimisation du workflow et de la communication</p><h4>99%</h4></div>
+    <div class="mas"><div class="col-md-12 master"><img class="img-responsive ma" src="img/e.png" alt="skills"></div><h2>Flatteries</h2><p class="legend">Reconstruction et optimisation des séries et cahier des charges</p><h4>2%</h4></div>
 
     </div>
     </div>
+
 </div>
 </div>
 <!--FIN HEADER BACKGROUND-->
@@ -31,7 +32,7 @@ require('headerhome.php');
     <div class="sommaire">
 
         <div class="col-md-6">
-            <h2>A propos</h2>
+            <h3>A propos</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" alt="" class="img-responsive"></div>
             <div class="col-md-6">
             <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -42,7 +43,7 @@ require('headerhome.php');
         </div>
 
         <div class="col-md-6">
-            <h2>Cours, Avant-Projets</h2>
+            <h3>Cours, Avant-Projets</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" class="img-responsive"></div>
             <div class="col-md-6">
             <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -60,7 +61,7 @@ require('headerhome.php');
     <div class="sommaire">
 
         <div class="col-md-6">
-            <h2>A propos</h2>
+            <h3>A propos</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" alt="" class="img-responsive"></div>
             <div class="col-md-6">
                 <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -71,7 +72,7 @@ require('headerhome.php');
         </div>
 
         <div class="col-md-6">
-            <h2>Cours, Avant-Projets</h2>
+            <h3>Cours, Avant-Projets</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" class="img-responsive"></div>
             <div class="col-md-6">
                 <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -90,7 +91,7 @@ require('headerhome.php');
     <div class="sommaire">
 
         <div class="col-md-6">
-            <h2>A propos</h2>
+            <h3>A propos</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" alt="" class="img-responsive"></div>
             <div class="col-md-6">
                 <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -101,7 +102,7 @@ require('headerhome.php');
         </div>
 
         <div class="col-md-6">
-            <h2>Cours, Avant-Projets</h2>
+            <h3>Cours, Avant-Projets</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" class="img-responsive"></div>
             <div class="col-md-6">
                 <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -115,9 +116,11 @@ require('headerhome.php');
 </div>
 
 
-<!--<footer>
-<?php require 'footer.php'; ?>
-</footer>-->
+
+
+<?php require('footer.php'); ?>
+
+
 
 
 </body>
