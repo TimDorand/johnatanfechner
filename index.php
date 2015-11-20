@@ -88,8 +88,9 @@ require('headerhome.php');
 
     <div class="sommaire">
 
-        <div class="col-md-6 hoversomm">
-            <h3>A propos</h3>
+        <a href="gestiondeprojets.php">
+            <div class="col-md-6 hoversomm">
+            <h3>Cours, Gestion de projets</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" alt="" class="img-responsive"></div>
             <div class="col-md-6">
                 <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -98,9 +99,10 @@ require('headerhome.php');
                 </p>
             </div>
         </div>
+        </a>
 
-        <div class="col-md-6 hoversomm">
-            <h3>Cours, Avant-Projets</h3>
+        <a href="phasedeconception.php"><div class="col-md-6 hoversomm">
+            <h3>Cours, Phase de Conception</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" class="img-responsive"></div>
             <div class="col-md-6">
                 <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -108,7 +110,8 @@ require('headerhome.php');
                     <a href="apropos.php">En savoir plus...</a>
                 </p>
             </div>
-        </div>
+        </div></a>
+
     </div>
 </div>
 
@@ -116,10 +119,10 @@ require('headerhome.php');
 
 <div class="col-md-12" id="cours">
 
-    <div class="sommaire hoversomm">
+    <div class="sommaire">
 
-        <div class="col-md-6">
-            <h3>A propos</h3>
+        <a href="phasedeconception.php"> <div class="col-md-6 hoversomm">
+            <h3>Cours, Livraison & Recettage</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" alt="" class="img-responsive"></div>
             <div class="col-md-6">
                 <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -128,9 +131,10 @@ require('headerhome.php');
                 </p>
             </div>
         </div>
+            </a>
 
-        <div class="col-md-6 hoversomm">
-            <h3>Cours, Avant-Projets</h3>
+            <a href="phasedeconception.php"> <div class="col-md-6 hoversomm">
+            <h3>Cours, Guide Utilisateur</h3>
             <div class="col-md-6"><img src="http://placehold.it/150x150" class="img-responsive"></div>
             <div class="col-md-6">
                 <p>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication.
@@ -139,6 +143,7 @@ require('headerhome.php');
                 </p>
             </div>
         </div>
+                </a>
 
     </div>
 </div>

@@ -1,6 +1,6 @@
 /* BAR TOP FIXED CONTACT */
 
-/*.contactbar{
+.contactbar{
   font-size: 0.9em;
   padding-top: 5px;
   border-bottom: 1px solid #e9e9e9;
@@ -11,10 +11,10 @@
 }
 
 .containerhead{
-  width:1200px;
+  width:100%;
   height:100%;
   margin:auto;
-}*/
+}
 
 /* DIV HEADER PRINCAPLE (IMAGE) */
 .headersingle{
@@ -27,6 +27,13 @@
   filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5e3ff', endColorstr='#e0f2ff',GradientType=0 ); /* IE6-9 */
 
   height:auto;
+
+  .contentheader{
+    margin:auto;
+    width:1000px;
+
+  }
+
 }
 
 .logo{
@@ -34,9 +41,8 @@
 
 /*MENU */
 
-.navbartop{
+.menu{
   height:auto;
-
   font-size: 1em;
   text-align: right;
   float:right;
@@ -59,6 +65,10 @@
   }
 }
 
+.logomenu{
+  padding:2% 0 2% 0;
+}
+
 /*FIN HEAD*/
 
 /*SINGLE PAGE*/
@@ -78,6 +88,8 @@ hr {
   background: url(../img/5.png) center center fixed;
   margin-top: 2%;
   height: 400px;
+  color:white;
+
   //background-position: fixed;
 }
 
@@ -86,6 +98,7 @@ hr {
   margin-top: 0%;
   height: 600px;
   //background-position: fixed;
+  color:white;
 }
 
 #parallax2 {
@@ -95,7 +108,7 @@ hr {
   margin-top: 12%; }
 
 #parallaxbot {
-  background-image: url(../img/5.png);
+  background: url(../img/5.png) center center fixed;
   height: 200px; }
 
 #competences {
@@ -115,15 +128,17 @@ hr {
 
 h1 {
   text-align: center; }
+.container {
+  .row {
+    padding-top: 20%;
+    padding-left: 5%;
+  }
 
-.row {
-  padding-top: 20%;
-  padding-left: 5%; }
-
-.row2 {
-  padding-top: 5%;
-  padding-left: 5%; }
-
+  .row2 {
+    padding-top: 5%;
+    padding-left: 5%;
+  }
+}
 h4 {
   padding-top: 20%;
   line-height: 130%;
@@ -150,9 +165,29 @@ strong {
   margin-top: -8%; }
 
 #progressbar {
-  width: 600px;
-  margin-left: 35%;
-  margin-bottom: 5%;
-  margin-top: -2%;
+  width: 50%;
+  margin:auto;
 }
 
+.text-center1{
+  margin:auto;
+  text-align:center;
+
+  width:50%;
+}
+
+@media screen and (min-width:1200px) {
+  .containerhead {
+    width:1000px;
+    margin:auto;
+
+
+  }
+}
+
+@media screen and (max-width: 750px) {
+  #parallax1{
+    display:none;
+  }
+
+}

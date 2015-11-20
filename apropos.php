@@ -6,8 +6,8 @@
     <div class="hr"><hr></div>
       <div class="text-center"> <h3>"Changez de point de vue, gagnez en efficacité"</h3> </div>
 <div class= "container-fluid  profil">
-<div class="col-xs-4 col-md-offset-1 photo"> <img src="img/profil.jpg" class="img-responsive profil" alt="Responsive image"> </div>
-<div class="col-xs-5">  <h4>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication. Il trouve des solutions multimédia pour les entreprises. Son intervention sur vos projets et avant-projets permet de vous apporter des réponses claires, du cahier des charges fonctionnel au succès de l'opération. <br></br>
+<div class="col-md-4 col-md-offset-1"> <img src="img/profil.jpg" class="img-responsive" alt="Jonathan Fechner"> </div>
+<div class="col-md-5">  <h4>Jonathan Fechner est Consultant Indépendant Digital spécialiste des techniques de l'information et de la communication. Il trouve des solutions multimédia pour les entreprises. Son intervention sur vos projets et avant-projets permet de vous apporter des réponses claires, du cahier des charges fonctionnel au succès de l'opération. <br/>
 
 <p> Vous êtes une entreprise ou un porteur de projet, grâce à son <b>réseau</b> de plus de <b>200 professionnels reconnus</b>, Jonathan Fechner peut constituer une équipe dédiée pour garantir le succès de votre projet. <b>Opération de communication, création de site web, 3D, print, ou vidéo</b>, faire appel à Jonathan Fechner c’est gagner un temps précieux et la certitude d’<b>atteindre vos objectifs</b>.</p></h4> </div>
 
@@ -48,21 +48,21 @@
 <section id="parallax2">
   <div class="hr">
     <hr> </div>
-<div class="container-fluid col-xs-12 ">
+<div class="container-fluid col-md-12 ">
   <div class="container-fluid row2">
-    <div class="col-xs-3 col-md-offset-1 text-center">
+    <div class="col-md-3 col-xs-12 col-md-offset-1 text-center">
 
 <h3>Gestion de Projet gagnez du temps et de l’argent</h3>
 
 <p class="text-justify"> Expert en Gestion de projet. Diagramme de Gantt, Scrum Master, méthode Agile recrutement de spécialistes, gestion des ressources. Profitez d’un réseau de plus de 200 professionnels reconnu. Vous avez un projet, il trouve les solutions.</p>
 </div>
-    <div class="col-xs-3 text-center ">
+    <div class="col-md-3 col-xs-12 text-center ">
 <h3>Design du papier à l'expérience utilisateur</h3>
 
 <p class="text-justify">Expert en comportements humains. Ergonomie, PNL ou communication classique, il faut se mettre à la place de l’utilisateur pour lui offrir ce qu’il attend. Vous voulez comprendre comment augmenter les ventes de votre site de e-commerce ? Il vous permet d’atteindre vos objectifs.</p>
 </div>
 
-    <div class="col-xs-3 text-center">
+    <div class="col-md-3 col-xs-12 text-center">
 <h3>Ingénierie de la technique au multimédia</h3>
 
 <p class="text-justify">Expert en Design. Vous avez besoin d’une maquette ou d’un modèle de pré série ? Prototypage rapide, impression 3D. Vous voulez un site internet ? Quelle technologie choisir pour votre projet ? Il vous apporte la solution.</p>
@@ -70,20 +70,20 @@
 
   </div>
   <div class="hr">
-    <br> </br>
+    <br/> <br/>
     <hr> </div>
 </section>
 
 
 
 
-<section id="parallax3">
+<section id="parallax3 col-md-12">
 
 
 
-<p class="col-xs-4 text-center "> <h2>De la gestion de projet au succès de l’opération</h2></p>
+<div class="text-center1"> <h2>De la gestion de projet au succès de l’opération</h2></div>
 
-<div class="col-xs-4 col-xs-offset-4 text-center ">Après <b>15 ans</b> d’expérience dans la <b>gestion de projets</b>, et 12 années à la tête d’<b>entreprises</b>, Jonathan Fechner ne cesse de chercher à <b>améliorer les processus</b>, de l’idée au projet <b>abouti</b>. Fort de ces expériences, il conseil aujourd’hui des <b>entreprises</b> de renommée <b>international</b> mais accompagne aussi de <b>jeunes créateurs</b> d’entreprises dans leurs projets.</div>
+<div class="text-center1">Après <b>15 ans</b> d’expérience dans la <b>gestion de projets</b>, et 12 années à la tête d’<b>entreprises</b>, Jonathan Fechner ne cesse de chercher à <b>améliorer les processus</b>, de l’idée au projet <b>abouti</b>. Fort de ces expériences, il conseil aujourd’hui des <b>entreprises</b> de renommée <b>international</b> mais accompagne aussi de <b>jeunes créateurs</b> d’entreprises dans leurs projets.</div>
 
 </section>
 
@@ -157,6 +157,4 @@
 </section>
 
 
-
-</body>
-</html>
+<?php require('footer.php'); ?>

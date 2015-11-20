@@ -96,10 +96,15 @@ ul, li, a, p {
   color: white; }
   .middle a, .middle p, .middle h2 {
     color: white; }
+  .middle .hoversomm a {
+    text-decoration: none;
+    color: white; }
 
-.hoversomm a {
-  text-decoration: none;
-  color: black; }
+.hoversomm {
+  padding: 0 2% 0 2%; }
+  .hoversomm a {
+    text-decoration: none;
+    color: black; }
 
 .hoversomm:hover {
   background: rgba(0, 0, 0, 0.1); }

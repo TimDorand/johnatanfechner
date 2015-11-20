@@ -133,16 +133,23 @@ float:right;
   }
 }
 
-.middle{
-  background:url("../img/6.png") center bottom fixed;
+.middle {
+  background: url("../img/6.png") center bottom fixed;
   background-size: contain;
-  color:white;
-  a,p, h2{
-    color:white;
+  color: white;
+  a, p, h2 {
+    color: white;
+  }
+  .hoversomm {
+    a {
+      text-decoration: none;
+      color: white;
+    }
   }
 }
 
 .hoversomm{
+  padding:0 2% 0 2%;
 a{
   text-decoration: none;
   color:black;
